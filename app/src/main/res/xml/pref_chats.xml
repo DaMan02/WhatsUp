@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:title="App language"
+        android:entries="@array/list_lang"
+        android:key="app_lang"
+        android:entryValues="@array/list_lang_values"
+        android:summary="@string/lang_summary">
+    </ListPreference>
+
+    <PreferenceCategory android:title="Chat Settings" >
+        <CheckBoxPreference  android:title="Enter key is send"
+            android:key="enter_key"
+            android:summary="@string/chat_sett1_unchecked">
+
+        </CheckBoxPreference>
+
+        <ListPreference android:title="Font size"
+            android:entries="@array/list_font_size"
+            android:key="font_size"
+            android:entryValues="@array/list_font_size_values"
+            android:summary="Font size for chat screen">
+        </ListPreference>
+
+        <PreferenceScreen android:title="Wallpaper"/>
+        <PreferenceScreen android:title="Chat backup"/>
+        <PreferenceScreen android:title="Chat history"/>
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

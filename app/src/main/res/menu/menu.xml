@@ -1,0 +1,55 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+
+    <item
+        android:id="@+id/video_call"
+        android:icon="@mipmap/videocall"
+        android:title="Video call"
+        app:showAsAction="always"
+        android:orderInCategory="100"/>
+    <item
+        android:id="@+id/call_button"
+        android:icon="@mipmap/callsfab"
+        android:title="Voice call"
+        app:showAsAction="always"
+        android:orderInCategory="101"/>
+
+    <item
+        android:id="@+id/menu1"
+        android:title="View contact"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/menu2"
+        android:title="Media"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/menu3"
+        android:title="Search"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/menu4"
+        android:title="Mute ntifications"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/menu5"
+        android:title="Wallpaper"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/menu6"
+        android:title="More"
+        app:showAsAction="never"
+        >
+        </item>
+
+
+
+</menu>

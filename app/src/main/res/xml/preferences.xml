@@ -1,0 +1,16 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.example.dayal.mywhatsapp.Settings.SettingsActivity$AccountSettingsFragment"
+        android:icon="@mipmap/ic_account"
+        android:title="Accounts" />
+
+    <header
+        android:fragment="com.example.dayal.mywhatsapp.Settings.SettingsActivity$ChatSettingsFragment"
+        android:icon="@mipmap/ic_green_msg"
+        android:title="Chats" />
+
+
+</preference-headers>

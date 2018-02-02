@@ -1,0 +1,8 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="Privacy"/>
+    <Preference android:title="Security"/>
+    <Preference android:title="Two-step verification"/>
+    <Preference android:title="Change number"/>
+    <Preference android:title="Delete my account"/>
+
+</PreferenceScreen>

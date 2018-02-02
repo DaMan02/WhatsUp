@@ -1,0 +1,49 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.dayal.mywhatsapp.ChatFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="vertical"
+       >
+
+        <TextView
+            android:id="@+id/status1"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_status"
+            android:textColor="#060606"
+            />
+        <TextView
+            android:id="@+id/status2"
+            android:textSize="14sp"
+            android:layout_marginStart="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_status_2"
+            />
+
+    </LinearLayout>
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/write_status"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="95dp"
+            android:layout_gravity="bottom|end"
+            app:fabSize="mini"
+            app:backgroundTint="#f1f0f0"
+            android:src="@mipmap/writefab"
+            />
+
+
+
+</android.support.design.widget.CoordinatorLayout>
